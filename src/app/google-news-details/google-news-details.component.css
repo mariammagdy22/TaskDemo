@@ -1,0 +1,19 @@
+.newsItem{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 60px 30px  280px;
+    grid-gap:10px;
+  justify-items:  center;
+ justify-content: center;
+  border-radius: 10px;
+}
+.newsItem img{
+    width:80%;
+    height:280px;
+    border-radius: 10px;
+}
+.newsItem p {
+    width:80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px
+}

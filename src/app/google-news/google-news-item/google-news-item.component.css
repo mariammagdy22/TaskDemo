@@ -1,0 +1,13 @@
+.newsItem{
+    display: grid;
+    grid-template-columns: 230px;
+    grid-template-rows: 250px 60px 30px;
+    background-color: rgb(241, 232, 232);
+  justify-items:  center;
+  border-radius: 10px;
+}
+.newsItem img{
+    width:230px;
+    height:250px;
+    border-radius: 10px;
+}
